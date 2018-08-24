@@ -38,7 +38,7 @@ setup(
     version=find_version('threadedcomments', '__init__.py'),
     license='BSD',
     install_requires=[
-        'django-contrib-comments>=1.7.3',
+        'django-contrib-comments>=1.7.3,<1.8.0',
     ],
 
     description='A simple yet flexible threaded commenting system.',
